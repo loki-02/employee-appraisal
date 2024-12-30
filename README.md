@@ -1,19 +1,26 @@
-Employee upraisal project
+# Employee Upraisal Project
 
 Spring Hibernate with H2 databse 
 
-Repo Usage commands:
-mvn clean install   
-mvn spring-boot:run  
+### Prerequisites
+- Java 17 or later
+- Spring Boot 3.x
+- H2 Database
+- Maven
+- VS Code for IDE
 
-H2 Database console
+### Building and Running the Application
+- mvn clean install   
+- mvn spring-boot:run  
+
+### H2 Database console
 http://localhost:8080/h2-console/
-Username & password are inside the resources
+(Username & password are inside the resources)
 
-GET API endpoints:
+## GET API endpoints:
 
-For viewing all the employee records:
+- For viewing all the employee records:
 http://localhost:8080/api/employees
 
-For Updating the actual percentage in categories table:
+- For Updating the actual percentage in categories table:
 http://localhost:8080/update-categories
